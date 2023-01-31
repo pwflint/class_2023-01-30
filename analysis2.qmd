@@ -1,16 +1,16 @@
 ---
-title: "Counties"
+title: "analysis2"
 author: "Peter Flint"
-date: "1/30/2023"
-output: html_document
+format: html
+editor: visual
 ---
+
 
 ## Counties
 ```{r}
-#| output: false
 #| echo: false
+#| output: false
 library(tidyverse)
 
 x <- read_rds("data/ec.rds")
 ```
-
